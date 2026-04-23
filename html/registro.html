@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=7">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="musica cristiana, locución evangelica">
+    <meta name="keywords" content="radio online, emisora en linea, radio evangelica">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/sesion.css">
+    <link rel="shortcut icon" href="../image/logo.png" type="image/x-icon">
+    <title>Registro - Maranatha Stereo</title>
+</head>
+<body class="wrapper">
+    <header>
+        <div class="logo">
+            <a href="/index.html"><img src="../image/logo.png" class="image" alt="logo_emisora"></a>
+            <h3 class="title">Maranatha Stereo</h3>
+        </div>
+        <nav class="nav">
+            <input type="checkbox" id="menu-toggle">
+            <ul class="menu_list">
+                <li class="list_item"><a href="/index.html" class="link">Inicio</a></li>
+                <li class="list_item"><a href="../html/acerca.html" class="link">La Radio</a></li>
+                <li class="list_item"><a href="../html/contac_form.html" class="link">Contacto</a></li>
+            </ul>
+            <label for="menu-toggle" class="menu-icon">
+                <img src="../image/icons8-menú-50.png" alt="menu">
+            </label>
+        </nav>
+    </header>
+    <main>
+       <form id="registroForm" class="form">
+        <h1 class="form_title">Registrarse</h1>
+
+        <div id="mensajeRegistro" class="mensaje"></div>
+
+        <div class="form_inputs">
+            <label class="form_label">
+                <input type="text" id="registroNombre" placeholder="" class="form_input" required>
+                <span class="form_text">Ingrese su Nombre</span>
+            </label>
+
+            <label class="form_label">
+                <input type="email" id="registroCorreo" placeholder="" class="form_input" required>
+                <span class="form_text">Ingrese su Correo</span>
+            </label>
+
+            <label class="form_label">
+                <input type="password" id="registroContraseña" placeholder="" class="form_input" required>
+                <span class="form_text">Ingrese su Contraseña</span>
+            </label>
+
+            <label class="form_label">
+                <input type="password" id="registroConfirmar" placeholder="" class="form_input" required>
+                <span class="form_text">Confirme su Contraseña</span>
+            </label>
+        </div>
+
+        <button type="submit" class="form_submit">Registrarse</button>
+
+        <div class="parametros">
+            <div class="recordar"><a href="../html/contac_form.html">¿Ya tiene cuenta? Inicie sesión</a></div>
+        </div>
+    </form> 
+    </main>
+    <footer>
+        <div class="info">
+            <span>&copy; Derechos Reservados | 2025</span> <br>
+        </div>
+        <div class="contacto">
+            <em>jerwebsite@gmail.com</em>
+        </div>
+        <div class="redes">
+            redes aqui
+        </div>
+    </footer>
+    <script src="../js/auth.js"></script>
+</body>
+</html>

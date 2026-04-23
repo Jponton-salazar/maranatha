@@ -1,0 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    width: 98%;
+    margin: auto;
+    background-image: url(../image/christmas-background-2516641_1920.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+iframe {
+    border: none;
+    border-radius: 20px;
+    
+}

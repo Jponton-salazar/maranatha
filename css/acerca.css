@@ -1,0 +1,102 @@
+main {
+    height: 77vh;
+    background-image: url(../image/logo.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 57%;
+    background-color: blueviolet;
+}
+
+#cabecera {
+    display: block;
+    text-align: center;
+    padding: 80px;
+}
+
+#name {
+    font-family: rale;
+    font-weight: bold;
+    font-size: 23px;
+    color: #FFFFFF;
+}
+
+@font-face {
+    font-family: rale;
+    src: url(/Raleway/static/Raleway-ExtraBold.ttf);
+}
+
+.slogan {
+    font-size: 17px;
+    color: #C0C0C0;
+}
+
+.text {
+    width: 70%;
+    margin: auto;
+    margin-top: 30px;
+    text-align: justify;
+}
+
+p {
+    font-size: 19px;
+    color: #333333;
+}
+
+@media (max-width: 426px) {
+    #cabecera {
+        padding: 15px;
+    }
+
+    p {
+    font-size: 16px;
+}
+}
+
+@media (max-width: 376px) {
+    main {
+        background-image: url(../image/logo.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        background-color: blueviolet;
+    }
+
+    #cabecera {
+        padding: 30px;
+    }
+
+    #name {
+        font-size: 18px;
+    }
+
+    .text p {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 320px) {
+    main {
+        background-image: url(../image/logo.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        background-color: blueviolet;
+    }
+
+    #cabecera {
+        padding: 20px;
+    }
+
+    #name {
+        font-size: 16.3px;
+    }
+
+    .slogan {
+        font-size: 12px;
+    }
+
+    .text p {
+        font-size: 12px;
+        padding: 10px;
+    }
+}
