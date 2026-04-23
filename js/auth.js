@@ -1,5 +1,5 @@
 // Configuración de la API
-const API_URL = 'http://localhost:5000/api/auth';
+const API_URL = 'https://maranatha-psi.vercel.app/api/auth';
 
 // Clase para manejar la autenticación
 class AuthManager {
